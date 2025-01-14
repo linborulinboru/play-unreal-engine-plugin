@@ -9,11 +9,11 @@ This Google Play plugin provides C++ and Blueprint interfaces for accessing Goog
 
 With this plugin, you can integrate one or more of the following features into your game:
 
-- **Play Integrity & Licensing:** Check that your game is unmodified, installed by Google Play, and running on a genuine Android device (or a genuine instance of Google Play Games for PC). Your game’s backend server can respond when you detect risky traffic to prevent unauthorized access and cheating. Refer to the [documentation](https://developer.android.com/google/play/integrity) for more information.
-- **Play In-App Updates:** Prompt users to update to the latest version of your game, when a new version is available, without the user needing to visit the Play Store. Refer to the [documentation](https://developer.android.com/guide/playcore/in-app-updates/unreal-engine) for more information.
-- **Play In-App Reviews:** Prompt users to submit Play Store ratings and reviews without leaving your game. Refer to the [documentation](https://developer.android.com/guide/playcore/in-app-review/unreal-engine) for more information.
+- **Play Integrity & Licensing:** Check that your game is unmodified, installed by Google Play, and running on a genuine Android device (or a genuine instance of Google Play Games for PC). Your game’s backend server can respond when you detect risky traffic to prevent unauthorized access and cheating. Refer to the [documentation](https://developer.android.com/google/play/integrity) and [Runtime API reference](https://developer.android.com/reference/unreal-engine/play/core/group/play-integrity) for more information.
+- **Play In-App Updates:** Prompt users to update to the latest version of your game, when a new version is available, without the user needing to visit the Play Store. Refer to the [documentation](https://developer.android.com/guide/playcore/in-app-updates/unreal-engine) and [Runtime API reference](https://developer.android.com/reference/unreal-engine/play/core/group/play-in-app-updates) for more information.
+- **Play In-App Reviews:** Prompt users to submit Play Store ratings and reviews without leaving your game. Refer to the [documentation](https://developer.android.com/guide/playcore/in-app-review/unreal-engine) and [Runtime API reference](https://developer.android.com/reference/unreal-engine/play/core/group/play-in-app-reviews) for more information.
 
-## Supported Unreal Engine versions
+## Supported Unreal Engine versions
 The plugin supports Unreal Engine 5.0 and all subsequent versions.
 
 ## Setup
