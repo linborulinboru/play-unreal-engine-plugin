@@ -19,6 +19,10 @@
 #include "Misc/CoreDelegates.h"
 #include "PlayInAppReviews.h"
 
+#include "Engine/GameInstance.h"
+#include "Engine/World.h"
+#include "TimerManager.h"
+
 #if SUPPORTED_PLATFORM
 #include "Android/AndroidApplication.h"
 #include "Android/AndroidJNI.h"

@@ -1,0 +1,9 @@
+{
+	"BuildId": "de65d001-e754-4336-8538-a3b728509ec2",
+	"Modules": 
+	{
+		"PlayInAppReviews": "UnrealEditor-PlayInAppReviews.dll",
+		"PlayInAppUpdates": "UnrealEditor-PlayInAppUpdates.dll",
+		"PlayIntegrity": "UnrealEditor-PlayIntegrity.dll"
+	}
+}

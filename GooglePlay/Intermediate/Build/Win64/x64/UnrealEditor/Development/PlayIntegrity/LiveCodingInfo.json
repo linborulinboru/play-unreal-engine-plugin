@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PlayIntegrity.cpp.obj": [
+			"IntegrityError.gen.cpp.obj",
+			"IntegrityManager.gen.cpp.obj",
+			"IntegrityTokenRequest.gen.cpp.obj",
+			"IntegrityTokenResponse.gen.cpp.obj",
+			"PlayIntegrity.init.gen.cpp.obj",
+			"PrepareIntegrityTokenRequest.gen.cpp.obj",
+			"StandardIntegrityManager.gen.cpp.obj",
+			"StandardIntegrityToken.gen.cpp.obj",
+			"StandardIntegrityTokenProvider.gen.cpp.obj",
+			"StandardIntegrityTokenRequest.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"IntegrityError.cpp.obj",
+			"IntegrityManager.cpp.obj",
+			"IntegrityTokenResponse.cpp.obj",
+			"PlayIntegrity.cpp.obj",
+			"StandardIntegrityManager.cpp.obj",
+			"StandardIntegrityToken.cpp.obj",
+			"StandardIntegrityTokenProvider.cpp.obj"
+		]
+	}
+}

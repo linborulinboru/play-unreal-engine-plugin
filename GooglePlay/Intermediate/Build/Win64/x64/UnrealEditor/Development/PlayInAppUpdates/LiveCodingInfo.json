@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PlayInAppUpdates.cpp.obj": [
+			"AppUpdateInfo.gen.cpp.obj",
+			"AppUpdateOptions.gen.cpp.obj",
+			"InAppUpdatesError.gen.cpp.obj",
+			"InAppUpdatesManager.gen.cpp.obj",
+			"PlayInAppUpdates.init.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"AppUpdateInfo.cpp.obj",
+			"AppUpdateOptions.cpp.obj",
+			"InAppUpdatesError.cpp.obj",
+			"InAppUpdatesManager.cpp.obj",
+			"PlayInAppUpdates.cpp.obj"
+		]
+	}
+}

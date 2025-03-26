@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PlayInAppReviews.cpp.obj": [
+			"InAppReviewsError.gen.cpp.obj",
+			"InAppReviewsManager.gen.cpp.obj",
+			"PlayInAppReviews.init.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"InAppReviewsError.cpp.obj",
+			"InAppReviewsManager.cpp.obj",
+			"PlayInAppReviews.cpp.obj"
+		]
+	}
+}

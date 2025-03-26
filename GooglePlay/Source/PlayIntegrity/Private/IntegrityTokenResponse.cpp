@@ -19,6 +19,10 @@
 #include "PlayIntegrity.h"
 #include "TimerManager.h"
 
+#include "Engine/GameInstance.h"
+#include "Engine/World.h"
+#include "TimerManager.h"
+
 #if SUPPORTED_PLATFORM
 extern jobject GGameActivityThis;
 #endif  // SUPPORTED_PLATFORM
@@ -118,7 +122,7 @@ void UIntegrityTokenResponse::HandleCheckDialogStatusTimer()
 {
 #if SUPPORTED_PLATFORM
 	IntegrityDialogResponseCode ResponseCode;
-	IntegrityErrorCode ErrorCode = IntegrityTokenResponse_getDialogResponseCode(
+	IntegrityErrorCode ErrorCode = IntegrityToken_getDialogResponseCode(
 		NativeTokenResponse, &ResponseCode);
 
 	if (ErrorCode == INTEGRITY_NO_ERROR &&
